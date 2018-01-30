@@ -1,0 +1,13 @@
+{% extends "contacts_base.html" %}
+{% load bootstrap4 %}
+
+{% block content %}
+
+<div class="container-fluid sol-body w-50">
+    <form class="text-white pb-5" method="post">
+        {% csrf_token%} {% bootstrap_form form %}
+        <input type="submit" value="Contact Us">
+    </form>
+</div>
+
+{% endblock %}

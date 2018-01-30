@@ -1,0 +1,97 @@
+{% extends "base.html" %} {% block content %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="jumbotron jumbotron-fluid bg-dark w-100 p-0 bg-services justify-content-center">
+            <div class="container w-100 text-center jumbo-text">
+                <h1 class="display-3 text-white">Our Services</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container guarantee-container mb-4">
+    <div class="row">
+        <div class="col-sm">
+            <div class="card mb-3 bg-transparent">
+                <div class="card-body">
+                    <div class="text-center mb-2">
+                        <i class="fa fa-users mb-4" aria-hidden="true"></i>
+                        <h4 class="card-title">Business Networking</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">BUSINESS NETWORKING INCREASE PRODUCTIVITY</h6>
+                    </div>
+                    <p class="card-text">
+                        If you own or run a business, by now you have already realized that your network can be a competitive advantage or the bane of your existence. There is a small fortune tied up in your technology, so why not protect your investment and your data by outsourcing to a reliable resource to ensure productivity and performance?
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="card mb-3 bg-transparent">
+                <div class="card-body">
+                    <div class="mb-2 text-center">
+                        <i class="fa fa-sitemap mb-4" aria-hidden="true"></i>
+                        <h4 class="card-title">Small Business Solutions</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">GROW YOUR BUSINESS</h6>
+                    </div>
+                    <p class="card-text">
+                        If you own the network, you own the problem. But shouldn’t you be doing something more important than chasing down the latest virus or hickey in your pipes? What productivity you manage to create in between tech “incidents” you more than waste by cruising the Yellow Pages looking for a Super Geek that will drop everything to come reboot your Nemesis. What if you could outsource to a reliable resource that you trusted, more than yourself, to ensure the productivity of your network?  
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="card mb-3 bg-transparent">
+                <div class="card-body">
+                    <div class="mb-2 text-center">
+                        <i class="fa fa-trophy  mb-4" aria-hidden="true"></i>
+                        <h4 class="card-title">Exceptional Service</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">WE COME TO YOU</h6>
+                    </div>
+                    <p class="card-text">
+                        Why is it that only in our dreams we hear the Phrases; “Whatever you wish”, “It’s my pleasure to serve you”, or “It will be done immediately”? Wouldn’t you like to think that there is still a place on the planet that takes pride in the art and science of customer service? Who do you know that will fight rain, sleet, snow and 5:00 traffic to come service your router?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mb-4 justify-content-center">
+         <h4>The Answer is Simple. The Simple Solution.</h4>
+    </div>
+    <div class="text-center">
+        <button type="button" class="btn bg-teal p-3 text-white" data-toggle="modal" data-target="#Networking">
+            Click here to see how we can help
+        </button>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="Networking" tabindex="-1" role="dialog" aria-labelledby="Networking" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="Networking">Networking</h5>
+                <button type="button bg-transparent text-white" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body services-modal text-dark">
+                <ul class="list-group">
+                    <li class="list-group-item">Technology Audits and Planning</li>
+                    <li class="list-group-item">Server/Workstation Installation and Maintenance</li>
+                    <li class="list-group-item">Switch/Router/Firewall Configuration & Maintenance</li>
+                    <li class="list-group-item">Internet Connectivity Coordination</li>
+                    <li class="list-group-item">Data Storage Management</li>
+                    <li class="list-group-item">Remote Location Connection (WAN)</li>
+                    <li class="list-group-item">Network Design and Implementation</li>
+                    <li class="list-group-item">Disaster Recovery Evaluations, ensuring protection of critical data</li>
+                    <li class="list-group-item">Safe Computing Techniques: Hardware redundancy and secure data back-ups</li>
+                    <li class="list-group-item">Voice and Data Cabling— CAT6, Fiber & Video</li>
+                    <li class="list-group-item">Corporate Technology Moves including cabling from start to finish</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a class="btn btn-secondary" href="{% url 'site_audit:audit' %}">Free site audit</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

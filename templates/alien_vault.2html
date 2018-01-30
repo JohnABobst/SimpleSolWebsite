@@ -1,0 +1,661 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="filter-alien">
+
+</div>
+
+<div class="container-fluid bg-alien h-100">
+
+
+
+
+  <div class="row bg-transparent">
+    <div class="jumbotron w-100 text-white bg-dark">
+      Let us help you stay on the cutting edge of cyber-security by installing, implementing, and monitoring your Alien Vault system.
+      We can keep your business safe from cyber attacks
+    </div>
+  </div>
+  <div class="row">
+    <div class="card-group bg-transparent">
+      <div class="card bg-transparent " style="width: 20rem;">
+        <div class="card-body text-white">
+          <h4 class="card-title">AlienApps</h4>
+          <p class="card-text">
+            <!-- Button trigger modal -->
+
+            <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#AlienApps">
+                <img src="\static\alienappsthumbnail-page-001.jpg" alt="" class="img-thumbnail">
+            </a>
+
+            <!-- Modal -->
+            <div class="modal fade bd-example-modal-lg" id="AlienApps" tabindex="-1" role="dialog" aria-labelledby="AlienApps" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="AlienApps">AlienVault® USM Anywhere™ and Palo Alto Networks Next-Generation Firewall</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <embed src="\static\alient_vault\alienapps-for-pan-data-sheet.pdf" width="750" height="350" type='application/pdf'>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <a class=" btn btn-primary" href="\static\alient_vault\alienapps-for-pan-data-sheet.pdf" download="alienapps-for-pan-data-sheet.pdf" type="application/pdf">
+                      Download PDF
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="card bg-transparent text-white" style="width: 20rem;">
+        <div class="card-body">
+          <h4 class="card-title"></h4>
+          <p class="card-text">
+            <!-- Button trigger modal -->
+
+            <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#SimplifyReporting">
+                <img src="\static\alient_vault\thumbnails\AlienVault_Data_Sheet_Simplify_Reporting_in_USM_Anywhere-001.jpg" alt="" class="img-thumbnail">
+            </a>
+
+            <!-- Modal -->
+            <div class="modal fade bd-example-modal-lg" id="SimplifyReporting" tabindex="-1" role="dialog" aria-labelledby="SimplifyReporting" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="AlienApps">Alien Vault Data Sheet Simplify Reporting</h5>
+                    <a class=" btn btn-primary" href="\static\alient_vault\AlienVault_Data_Sheet_Simplify_Reporting_in_USM_Anywhere.pdf" download="AlienVault_Data_Sheet_Simplify_Reporting_in_USM_Anywhere.pdf" type="application/pdf">
+                      <span aria-hidden="true">&times;</span>
+                    </a>
+                  </div>
+                  <div class="modal-body">
+                    <embed src="\static\alient_vault\AlienVault_Data_Sheet_Simplify_Reporting_in_USM_Anywhere.pdf" width="750" height="350" type='application/pdf'>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <a class=" btn btn-primary" href="\static\alient_vault\AlienVault_Data_Sheet_Simplify_Reporting_in_USM_Anywhere.pdf" download="AlienVault_Data_Sheet_Simplify_Reporting_in_USM_Anywhere.pdf" type="application/pdf">
+                      Download PDF
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="card bg-transparent text-white" style="width: 20rem;">
+        <div class="card-body">
+          <h4 class="card-title"></h4>
+          <p class="card-text">
+            <!-- Button trigger modal -->
+            <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#FactSheet">
+                <img src="\static\alient_vault\thumbnails\AlienVault_Fact_Sheet-001.jpg" alt="" class="img-thumbnail">
+            </a>
+            <!-- Modal -->
+            <div class="modal fade bd-example-modal-lg" id="FactSheet" tabindex="-1" role="dialog" aria-labelledby="FactSheet" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="FactSheet">Fact Sheet</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <embed src="\static\alient_vault\AlienVault_Fact_Sheet.pdf" width="750" height="350" type='application/pdf'>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <a class=" btn btn-primary" href="\static\alient_vault\AlienVault_Fact_Sheet.pdf" download="AlienVault_Fact_Sheet.pdf" type="application/pdf">
+                      Download PDF
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="card bg-transparent text-white" style="width: 20rem;">
+        <div class="card-body">
+          <h4 class="card-title"></h4>
+          <p class="card-text">
+            <!-- Button trigger modal -->
+        <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#Logger">
+            <img src="\static\alient_vault\thumbnails\AlienVault-Logger-001.jpg" alt="" class="img-thumbnail">
+        </a>
+
+        <!-- Modal -->
+          <div class="modal fade bd-example-modal-lg" id="Logger" tabindex="-1" role="dialog" aria-labelledby="Logger" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="AlienApps">Logger</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <embed src="\static\alient_vault\AlienVault-Logger.pdf" width="750" height="350" type='application/pdf'>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <a class=" btn btn-primary"  href="\static\alient_vault\AlienVault-Logger.pdf" download="AlienVault-Logger.pdf" type="application/pdf">
+                    Download PDF
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-transparent text-white" style="width: 20rem;">
+        <div class="card-body">
+          <h4 class="card-title"></h4>
+          <p class="card-text">
+            <!-- Button trigger modal -->
+
+        <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#ManagedAppliance">
+            <img src="\static\alient_vault\thumbnails\AlienVault-Managed-Appliance-Service-Overview-001.jpg" alt="" class="img-thumbnail">
+        </a>
+
+        <!-- Modal -->
+        <div class="modal fade bd-example-modal-lg" id="ManagedAppliance" tabindex="-1" role="dialog" aria-labelledby="ManagedAppliance" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="AlienApps">Managed Appliance Services</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <embed src="\static\alient_vault\AlienVault-Managed-Appliance-Service-Overview.pdf" width="750" height="350" type='application/pdf'>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a class=" btn btn-primary" href="\static\alient_vault\AlienVault-Managed-Appliance-Service-Overview.pdf" download="AlienVault-Managed-Appliance-Service-Overview.pdf" type="application/pdf">
+                  Download PDF
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+      <div class="card-group">
+        <div class="card bg-transparent text-white" style="width: 20rem;">
+          <div class="card-body">
+            <h4 class="card-title"></h4>
+            <p class="card-text">
+              <!-- Button trigger modal -->
+
+          <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#OpenThreat">
+              <img src="\static\alient_vault\thumbnails\AlienVault-Open-Threat-Exchange-001.jpg" alt="" class="img-thumbnail">
+          </a>
+          <!-- Modal -->
+          <div class="modal fade bd-example-modal-lg" id="OpenThreat" tabindex="-1" role="dialog" aria-labelledby="OpenThreat" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="OpenThreat">Open Threat Exchange</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <embed src="\static\alient_vault\AlienVault-Open-Threat-Exchange.pdf" width="750" height="350" type='application/pdf'>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <a class=" btn btn-primary" href="\static\alient_vault\AlienVault-Open-Threat-Exchange.pdf" download="AlienVault-Open-Threat-Exchange.pdf" type="application/pdf">
+                    Download PDF
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="card bg-transparent text-white" style="width: 20rem;">
+          <div class="card-body">
+            <h4 class="card-title">Sensor</h4>
+            <p class="card-text">
+              <!-- Button trigger modal -->
+          <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#Sensor">
+              <img src="\static\alient_vault\thumbnails\AlienVault-Sensor-001.jpg" alt="" class="img-thumbnail">
+          </a>
+          <!-- Modal -->
+          <div class="modal fade bd-example-modal-lg" id="Sensor" tabindex="-1" role="dialog" aria-labelledby="Sensor" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="Sensor">AlienVault Sensor</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <embed src="\static\alient_vault\AlienVault-Sensor.pdf" width="750" height="350" type='application/pdf'>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <a class=" btn btn-primary" href="\static\alient_vault\AlienVault-Sensor.pdf" download="AlienVault-Sensor.pdf" type="application/pdf">
+                    Download PDF
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="card bg-transparent text-white" style="width: 20rem;">
+          <div class="card-body">
+            <h4 class="card-title">Server</h4>
+            <p class="card-text">
+              <!-- Button trigger modal -->
+              <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#Server">
+                  <img src="\static\alient_vault\thumbnails\AlienVault-Server-001.jpg" alt="" class="img-thumbnail">
+              </a>
+              <!-- Modal -->
+              <div class="modal fade bd-example-modal-lg" id="Server" tabindex="-1" role="dialog" aria-labelledby="Server" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="Server">AlienVault® server</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <embed src="\static\alient_vault\AlienVault-Server.pdf" width="750" height="350" type='application/pdf'>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <a class=" btn btn-primary" href="\static\alient_vault\AlienVault-Server.pdf" download="AlienVault-Server.pdf" type="application/pdf">
+                        Download PDF
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="card bg-transparent text-white" style="width: 20rem;">
+          <div class="card-body">
+            <h4 class="card-title">Success Services</h4>
+            <p class="card-text">
+              <!-- Button trigger modal -->
+              <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#Success">
+                  <img src="\static\alient_vault\thumbnails\av-success-services-001.jpg" alt="" class="img-thumbnail">
+              </a>
+              <!-- Modal -->
+              <div class="modal fade bd-example-modal-lg" id="Success" tabindex="-1" role="dialog" aria-labelledby="Success" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="Success">AlienVault® Success Services</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <embed src="\static\alient_vault\av-success-services.pdf" width="750" height="350" type='application/pdf'>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <a class=" btn btn-primary" href="\static\alient_vault\av-success-services.pdf" download="av-success-services.pdf" type="application/pdf">
+                        Download PDF
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="card bg-transparent text-white" style="width: 20rem;">
+          <div class="card-body">
+            <h4 class="card-title">Threat Intelligence</h4>
+            <p class="card-text">
+              <!-- Button trigger modal -->
+
+              <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#ThreatIntelligence">
+                  <img src="\static\alient_vault\thumbnails\av-success-services-001.jpg" alt="" class="img-thumbnail">
+              </a>
+
+              <!-- Modal -->
+              <div class="modal fade bd-example-modal-lg" id="ThreatIntelligence" tabindex="-1" role="dialog" aria-labelledby="ThreatIntelligence" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="Success">Threat Intelligence</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <embed src="\static\alient_vault\AV-ThreatIntelligence.pdf" width="750" height="350" type='application/pdf'>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <a class=" btn btn-primary" href="\static\alient_vault\AV-ThreatIntelligence.pdf" download="AV-ThreatIntelligence.pdf" type="application/pdf">
+                        Download PDF
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="card-group">
+      <div class="card bg-transparent text-white" style="width: 20rem;">
+        <div class="card-body">
+            <h4 class="card-title">USM</h4>
+            <p class="card-text">
+              <!-- Button trigger modal -->
+
+            <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#USM">
+                <img src="\static\alient_vault\thumbnails\AV-USM-001.jpg" alt="" class="img-thumbnail">
+            </a>
+
+          <!-- Modal -->
+          <div class="modal fade bd-example-modal-lg" id="USM" tabindex="-1" role="dialog" aria-labelledby="USM" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="USM">USM</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <embed src="\static\alient_vault\AV-USM.pdf" width="750" height="350" type='application/pdf'>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <a class=" btn btn-primary" href="\static\alient_vault\AV-USM.pdf" download="AV-USM.pdf" type="application/pdf">
+                    Download PDF
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-transparent text-white" style="width: 20rem;">
+        <div class="card-body">
+          <h4 class="card-title">USM Central</h4>
+          <p class="card-text">
+            <!-- Button trigger modal -->
+
+          <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#USMCentral">
+              <img src="\static\alient_vault\thumbnails\AV-usm-central-001.jpg" alt="" class="img-thumbnail">
+          </a>
+
+        <!-- Modal -->
+        <div class="modal fade bd-example-modal-lg" id="USMCentral" tabindex="-1" role="dialog" aria-labelledby="USMCentral" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="USMCentral">USM Central</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <embed src="\static\alient_vault\AV-usm-central.pdf" width="750" height="350" type='application/pdf'>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a class=" btn btn-primary" href="\static\alient_vault\AV-usm-central.pdf" download="AV-usm-central.pdf" type="application/pdf">
+                  Download PDF
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="card bg-transparent text-white" style="width: 20rem;">
+        <div class="card-body">
+          <h4 class="card-title">DS OpenThreat</h4>
+          <p class="card-text">
+            <!-- Button trigger modal -->
+          <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#DSOpenThreat">
+              <img src="\static\alient_vault\thumbnails\DS_Open_Threat_ES-001.jpg" alt="" class="img-thumbnail">
+          </a>
+        <!-- Modal -->
+        <div class="modal fade bd-example-modal-lg" id="DSOpenThreat" tabindex="-1" role="dialog" aria-labelledby="DSOpenThreat" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="DSOpenThreat">DS Open Threat</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <embed src="\static\alient_vault\DS_Open_Threat_ES.pdf" width="750" height="350" type='application/pdf'>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a class=" btn btn-primary" href="\static\alient_vault\DS_Open_Threat_ES.pdf" download="DS_Open_Threat_ES.pdf" type="application/pdf">
+                  Download PDF
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card bg-transparent text-white" style="width:20rem;">
+      <div class="card-body">
+        <h4 class="card-title">DS Server ES</h4>
+        <p class="card-text">
+          <!-- Button trigger modal -->
+        <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#DSServerES">
+            <img src="\static\alient_vault\thumbnails\DS_Server-ES-001.jpg" alt="" class="img-thumbnail">
+        </a>
+      <!-- Modal -->
+        <div class="modal fade bd-example-modal-lg" id="DSServerES" tabindex="-1" role="dialog" aria-labelledby="DSServerES" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="DSServerES">DS Server ES</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <embed src="\static\alient_vault\DS_Server-ES.pdf" width="750" height="350" type='application/pdf'>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a class=" btn btn-primary" href="\static\alient_vault\DS_Server-ES.pdf" download="DS_Server-ES.pdf" type="application/pdf">
+                  Download PDF
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card bg-transparent text-white" style="width:20rem;">
+      <div class="card-body">
+        <h4 class="card-title">Cisco Umbrella</h4>
+        <p class="card-text">
+          <!-- Button trigger modal -->
+
+        <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#CiscoUmbrella">
+            <img src="\static\alient_vault\thumbnails\ds-cisco-umbrella-alien-app-001.jpg" alt="" class="img-thumbnail">
+        </a>
+
+      <!-- Modal -->
+        <div class="modal fade bd-example-modal-lg" id="CiscoUmbrella" tabindex="-1" role="dialog" aria-labelledby="CiscoUmbrella" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="CiscoUmbrella">Cisco Umbrella</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <embed src="\static\alient_vault\ds-cisco-umbrella-alien-app.pdf" width="750" height="350" type='application/pdf'>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <a class=" btn btn-primary" href="\static\alient_vault\ds-cisco-umbrella-alien-app.pdf" download="ds-cisco-umbrella-alien-app.pdf" type="application/pdf">
+                  Download PDF
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="row">
+    <div class="card-group">
+      <div class="card bg-transparent text-white" style="width: 20rem;">
+        <div class="card-body">
+            <h4 class="card-title">USM Anywhere</h4>
+            <p class="card-text">
+              <!-- Button trigger modal -->
+
+            <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#USMAnywhere">
+                <img src="\static\alient_vault\thumbnails\DS-USM-Anywhere-001.jpg" alt="" class="img-thumbnail">
+            </a>
+
+          <!-- Modal -->
+          <div class="modal fade bd-example-modal-lg" id="USMAnywhere" tabindex="-1" role="dialog" aria-labelledby="USMAnywhere" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="USMAnywhere">USM Anywhere</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <embed src="\static\alient_vault\DS-USM-Anywhere.pdf" width="750" height="350" type='application/pdf'>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <a class=" btn btn-primary" href="\static\alient_vault\DS-USM-Anywhere.pdf" download="DS-USM-Anywhere.pdf" type="application/pdf">
+                    Download PDF
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-transparent text-white" style="width: 20rem;">
+        <div class="card-body">
+            <h4 class="card-title">USM Anywhere Plugins</h4>
+            <p class="card-text">
+              <!-- Button trigger modal -->
+
+            <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#USMAnywherePlugins">
+                <img src="\static\alient_vault\thumbnails\usm-anywhere-plugins-list-001.jpg" alt="" class="img-thumbnail">
+            </a>
+
+          <!-- Modal -->
+          <div class="modal fade bd-example-modal-lg" id="USMAnywherePlugins" tabindex="-1" role="dialog" aria-labelledby="USMAnywhere" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="USMAnywherePlugins">USM Anywhere Plugins List</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <embed src="\static\alient_vault\usm-anywhere-plugins-list.pdf" width="750" height="350" type='application/pdf'>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <a class=" btn btn-primary" href="\static\alient_vault\usm-anywhere-plugins-list.pdf" download="usm-anywhere-plugins-list.pdf" type="application/pdf">
+                    Download PDF
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-transparent text-white" style="width: 20rem;">
+        <div class="card-body">
+            <h4 class="card-title">USM Plugins List</h4>
+            <p class="card-text">
+              <!-- Button trigger modal -->
+            <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#USMPlugins">
+                <img src="\static\alient_vault\thumbnails\usm-plugins-list-001.jpg" alt="" class="img-thumbnail">
+            </a>
+
+          <!-- Modal -->
+          <div class="modal fade bd-example-modal-lg" id="USMPlugins" tabindex="-1" role="dialog" aria-labelledby="USMPlugins" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="USMPlugins">USM Plugins</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <embed src="\static\alient_vault\usm-plugins-list.pdf" width="750" height="350" type='application/pdf'>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <a class=" btn btn-primary" href="\static\alient_vault\usm-plugins-list.pdf" download="usm-plugins-list.pdf" type="application/pdf">
+                    Download PDF
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+<script type="text/javascript" language="javascript">
+    $("#alienthumb").hover(function(){
+
+    $("#SheetThumb").append(<img src='"+ this.href"'/>)
+});
+</script>
+
+<script type="text/javascript">
+$('#myModal').on('shown.bs.modal', function () {
+$('#myInput').focus()
+})
+</script>
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}

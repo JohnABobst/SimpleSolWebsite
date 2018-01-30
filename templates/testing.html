@@ -1,0 +1,202 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-4">
+      <div class="card" style="width:20rem;">
+        <ul class="list-group list-group-flush bg-transparent">
+
+
+
+          <li pdf_file="\static\alient_vault\AV-ThreatIntelligence.pdf"
+          pdf_thumb="\static\alient_vault\thumbnails\av-success-services-001.jpg"
+          class="list-group-item text-white">
+            Threat Intelligence
+          </li>
+
+          <li pdf_file="\static\alient_vault\AV-USM.pdf"
+          pdf_thumb="\static\alient_vault\thumbnails\AV-USM-001.jpg"
+          class="list-group-item text-white">
+            USM
+          </li>
+
+          <li pdf_file="\static\alient_vault\usm-plugins-list.pdf"
+          pdf_thumb="\static\alient_vault\thumbnails\usm-plugins-list-001.jpg"
+          class="list-group-item">
+            USM Plugins
+          </li>
+
+          <li pdf_file="\static\alient_vault\AV-usm-central.pdf"
+          pdf_thumb="\static\alient_vault\thumbnails\AV-usm-central-001.jpg"
+          class="list-group-item">
+            USM Central
+          </li>
+
+          <li pdf_file="\static\alient_vault\DS_Open_Threat_ES.pdf"
+          pdf_thumb="\static\alient_vault\thumbnails\DS_Open_Threat_ES-001.jpg"
+          class="list-group-item">
+            DS Open Threat
+          </li>
+
+          <li pdf_file="\static\alient_vault\DS_Server-ES.pdf"
+          pdf_thumb="\static\alient_vault\thumbnails\DS_Server-ES-001.jpg"
+          class="list-group-item">
+            DS Server ES
+          </li>
+
+          <li pdf_file="\static\alient_vault\ds-cisco-umbrella-alien-app.pdf"
+          pdf_thumb="\static\alient_vault\thumbnails\ds-cisco-umbrella-alien-app-001.jpg"
+          class="list-group-item">
+            Cisco Umbrella
+          </li>
+
+          <li pdf_file="\static\alient_vault\DS-USM-Anywhere.pdf"
+          pdf_thumb="\static\alient_vault\thumbnails\DS-USM-Anywhere-001.jpg"
+          class="list-group-item">
+            USM Anywhere
+          </li>
+
+          <li pdf_file="\static\alient_vault\usm-anywhere-plugins-list.pdf"
+          pdf_thumb="\static\alient_vault\thumbnails\usm-anywhere-plugins-list-001.jpg"
+          class="list-group-item">
+            USM Anywhere Plugins
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="text-center">
+        <div id="datathumb">
+
+        </div>
+      </div>
+
+      <script>
+
+        $(document).ready(function(){
+          $("li").click(function(){
+            $('#alienappthumb').attr('src', $(this).attr("pdf_thumb"));
+            $('#alienapppdf').attr('src', $(this).attr("pdf_file"));
+            $('#alienappdownload').attr('href', $(this).attr("pdf_file"));
+          })
+        })
+      </script>
+
+
+      <div class="card bg-transparent " id="rabble" style="width: 20rem;">
+        <div class="card-body text-white">
+          <h4 class="card-title">AlienApps</h4>
+          <p class="card-text">
+            <!-- Button trigger modal -->
+
+            <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#AlienApps">
+                <img id="alienappthumb" src="/static/alientvault.png" alt="/static/alienvault.png" class="img-thumbnail">
+            </a>
+
+            <!-- Modal -->
+            <div class="modal fade bd-example-modal-lg" id="AlienApps" tabindex="-1" role="dialog" aria-labelledby="AlienApps" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="AlienApps"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <embed id="alienapppdf" src="" width="750" height="350" type='application/pdf'>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <a id="alienapppdfdownload" class=" btn btn-primary" href="" download="alienapps-for-pan-data-sheet.pdf" type="application/pdf">
+                      Download PDF
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="card" style="width:20rem;">
+        <ul class="list-group list-group-flush">
+          <li pdf_file="/static/alient_vault/alienapps-for-pan-data-sheet.pdf"
+          pdf_thumb="/static/alienappsthumbnail-page-001.jpg"
+          class="list-group-item text-white">
+            AlienApps
+          </li>
+
+          <li pdf_file="\static\alient_vault\AlienVault_Data_Sheet_Simplify_Reporting_in_USM_Anywhere.pdf"
+          pdf_thumb="\static\alient_vault\thumbnails\AlienVault_Data_Sheet_Simplify_Reporting_in_USM_Anywhere-001.jpg"
+          class="list-group-item text-white">
+            Simplify Reporting
+          </li>
+
+          <li pdf_file="\static\alient_vault\AlienVault-Logger.pdf"
+          pdf_thumb="\static\alient_vault\thumbnails\AlienVault-Logger-001.jpg"
+          class="list-group-item text-white">
+            Logger
+          </li>
+
+          <li pdf_file="\static\alient_vault\AlienVault_Fact_Sheet.pdf"
+          pdf_thumb="\static\alient_vault\thumbnails\AlienVault_Fact_Sheet-001.jpg"
+          class="list-group-item text-white">
+            Fact Sheet
+          </li>
+
+          <li pdf_file="\static\alient_vault\AlienVault-Managed-Appliance-Service-Overview.pdf"
+          pdf_thumb="\static\alient_vault\thumbnails\AlienVault-Managed-Appliance-Service-Overview-001.jpg"
+          class="list-group-item text-white">
+            Managed Appliance Service
+          </li>
+
+          <li pdf_file="/static/alient_vault/alienapps-for-pan-data-sheet.pdf"
+          pdf_thumb="/static/alienappsthumbnail-page-001.jpg"
+          class="list-group-item text-white">
+            Open Threat Exchange
+          </li>
+
+          <li pdf_file="\static\alient_vault\AlienVault-Sensor.pdf"
+          pdf_thumb="\static\alient_vault\thumbnails\AlienVault-Sensor-001.jpg"
+          class="list-group-item text-white">
+            Sensor
+          </li>
+
+          <li pdf_file="\static\alient_vault\AlienVault-Server.pdf"
+          pdf_thumb="\static\alient_vault\AlienVault-Server.pdf"
+          class="list-group-item text-white">
+            Server
+          </li>
+
+          <li pdf_file="\static\alient_vault\av-success-services.pdf"
+          pdf_thumb="\static\alient_vault\thumbnails\av-success-services-001.jpg"
+          class="list-group-item text-white">
+            Success Services
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}

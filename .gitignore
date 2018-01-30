@@ -1,0 +1,12 @@
+#Ignored file extensions
+
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+
+#Ignored files
+settings.py

@@ -1,0 +1,80 @@
+<!DOCTYPE html> {% load staticfiles %}
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i,800,800i|Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/master.css'%}">
+    <title>The Simple Solution</title>
+</head>
+
+<body class="sol-body">
+    <div class="jumbotron jumbotron-fluid p-0 m-0 sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+             <a class="navbar-brand" href="#"><img id="logo" src="/static/SimpleSolutionLogo2017.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav text-lg-right">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="{% url 'home'%}">
+                            <h5>Home</h5>
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'guarantee'%}">
+                            <h5>Simple Guarantee</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'services' %}">
+                            <h5>Services</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'cybersecurity' %}">
+                            <h5>Cyber Monitoring</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'about' %}">
+                            <h5>About</h5>
+                            </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'contacts:contact' %}">
+                            <h5>Contact</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'site_audit:audit' %}">
+              Free 2 hour Site Audit</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    {% block content %} {% endblock %}
+    <div class="footer pt-4 pb-4">
+        <div class="footer-address justify-content-center">
+            <div class="text-center">
+                <h5 class="display-4 footer-tagline">IT Made Simple</h5>
+                <h5>THE SIMPLE SOLUTION</h5>
+                <h5>1052 North 5th Street</h5>
+                <h5>San Jose, CA 95112</h5>
+                <h5>408-295-9200</h5>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+
+</html>

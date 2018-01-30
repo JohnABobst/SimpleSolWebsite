@@ -1,0 +1,332 @@
+            @media only screen and (max-width: 768px) {
+            /* For mobile: */
+            .display-3 {
+                font-size: 3.5em !important;
+            }
+
+            .bg-guarantee,
+            .bg-contact,
+            .jumbo,
+            .bg-services,
+            .bg-contact,
+            .bg-contact,
+            .bg-server {
+                height: 20em !important;
+            }
+        }
+        .navbar-dark {
+            background-color: #1E1E1E;
+        }
+
+        .active a h5 {
+            color: #E9B44C;
+        }
+
+        #logo {
+            width: 100%;
+            padding: 2%;
+        }
+
+        .display-3 {
+            font-family: 'Work Sans', sans-serif;
+            font-weight: 800;
+            font-size: 8em;
+            letter-spacing: 5px;
+        }
+
+
+        .fa {
+            font-size: 72px !important;
+            /*  color: #098F9E;*/
+            margin-top: 5%;
+        }
+
+        .display-4,
+        h4,
+        h5, 
+        p {
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        h5, h6 {
+            font-weight: 300;
+        }
+
+        b {
+            letter-spacing: 1.2px;
+        }
+
+        .display-5 {
+            font-family: 'Work Sans', sans-serif;
+            font-weight: 700;
+        }
+
+        hr {
+            background-color: #515050;
+            width: 95%;
+            margin: 0 auto;
+        }
+        /*///////////////base.html section/////////////////*/
+
+        .footer {
+            background-color: #1E1E1E;
+            width: 100%;
+            height: 20%;
+            color: #fff;
+            padding: 10%;
+        }
+
+
+        .footer-tagline {
+            letter-spacing: 2px;
+            font-weight: 300;
+        }
+
+        .footer-brand {
+            width: 25%;
+            margin: 0 auto;
+        }
+
+        .footer p {
+            font-size: 10px;
+        }
+
+        .footer a {
+            text-decoration-style: none;
+            color: #E9B44C;
+        }
+
+        a .navbar-brand {
+            font-family: font-family: 'EB Garamond', serif;
+
+        }
+
+        .navbar-brand {
+            width: 10%;
+            padding: 1%;
+        }
+        /*///////////////begin index.html section/////////////////*/
+
+        .jumbo {
+            width: 100%;
+            height: 38em;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/static/storefront3crop.jpg");
+            background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/static/storefront3crop.jpg");
+            background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/static/storefront3crop.jpg");
+            background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/static/storefront3crop.jpg");
+            background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("/static/storefront3crop.jpg");
+            background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/static/storefront3crop.jpg");
+            /* background-image: url("/static/storefront3crop.jpg");*/
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+
+        .main {
+            margin-top: 5%;
+        }
+
+        .bg {
+            position: relative;
+        }
+
+        .jumbo-text {
+            margin-top: 15%;
+        }
+
+        .tagline {
+            margin-top: 15%;
+            color: #fff;
+        }
+
+        .audit-button,
+        .bg-teal {
+            border-radius: 0px;
+            border-style: none;
+            background-color: #023C40;
+            color: #eee;
+        }
+
+        .bg-teal:hover {
+            background-color: #343a40;
+        }
+
+        .audit-button:hover {
+            background-color: #eee;
+            color: #343a40;
+        }
+
+        .card {
+            background-color: transparent !important;
+            border-style: none;
+        }
+
+        #viewmore {
+            display: none;
+        }
+
+        .why-simple-header {
+            margin-top: 5%;
+        }
+
+        .why-simple-section {
+            background-color: #023C40;
+            padding-bottom: 6%;
+            color: #DAD7CD;
+        }
+
+
+        .our-approach {
+            background-color: #DAD7CD;
+            padding-bottom: 6%;
+        }
+        /*///////////////end index.html section/////////////////*/
+
+        .securitylist {}
+
+
+        .img-thumbnail {
+            width: 500px;
+        }
+
+        .bg-guarantee {
+            width: 100%;
+            height: 38em;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/static/van.jpg");
+            background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/static/van.jpg");
+            background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/static/van.jpg");
+            background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url("/static/van.jpg");
+            background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("/static/van.jpg");
+            background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/static/van.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+
+        .guarantee-container {
+            width: 100%;
+            /*background-image: url("/static/board.jpeg");*/
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .server-image {
+            width: 70%;
+            height: 30em;
+            background-image: url("/static/server2.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .dropdown-toggle {
+          width: 300px;
+        }
+
+        .dropdown {
+            position: relative;
+        }
+
+        .scroll-menu {
+            display: block;
+            height: 250px;
+            width: 100%;
+            overflow: scroll;
+        }
+
+
+        .bg-audit {
+            width: 100%;
+            height: 800px;
+
+            background-image: url("/static/office.jpeg");
+
+            /*The image used */
+            /* Full height */
+            /* Center and scale the image nicely */
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .bg-alien {
+            width: 100%;
+            height: 38em;
+            background-image: url("/static/server-room.jpeg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+
+        .bg-contact {
+            width: 100%;
+            height: 38em;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/static/salesoffice2.jpg");
+            background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/static/salesoffice2.jpg");
+            background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/static/salesoffice2.jpg");
+            background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/static/salesoffice2.jpg");
+            background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("/static/salesoffice2.jpg");
+            background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/static/salesoffice2.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .bg-server {
+            width: 100%;
+            height: 38em;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/static/server2.jpg");
+            background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/static/server2.jpg");
+            background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/static/server2.jpg");
+            background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/static/server2.jpg");
+            background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("/static/server2.jpg");
+            background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/static/server2.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+
+
+        .bg-services {
+
+            width: 100%;
+            height: 38em;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/static/workshop3.jpg");
+            background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/static/workshop3.jpg");
+            background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/static/workshop3.jpg");
+            background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/static/workshop3.jpg");
+            background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("/static/workshop3.jpg");
+            background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("/static/workshop3.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            .sol-navbar {}
+
+            .sol-navlink {
+                text: black;
+            }
+            /*#sol-card {
+  background-color: black;
+}*/
+            .sol-card {
+                text: white;
+            }
+
+            .sol-body {}
+
+            .sol-link {}
+
+            .sol-nav-item {
+                text: black;
+            }
+
+            
+.list-group-item {
+    border: 0px;
+}
