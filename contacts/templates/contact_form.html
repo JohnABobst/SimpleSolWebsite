@@ -3,11 +3,23 @@
 
 {% block content %}
 
-<div class="container-fluid sol-body w-50">
-    <form class="text-white pb-5" method="post">
-        {% csrf_token%} {% bootstrap_form form %}
-        <input type="submit" value="Contact Us">
-    </form>
+<div class="container-fluid">
+    <div class="row">
+        <div class="jumbotron jumbotron-fluid bg-dark w-100 p-0 bg-contact justify-content-center">
+            <div class="container w-100 text-center jumbo-text">
+                <h1 class="display-3 text-white">Contact Us</h1>
+            </div>
+        </div>
+    </div>
 </div>
+<div class="card">
+  <div class="container-fluid sol-body w-50">
+      <form class="text-white pb-5" method="post">
+          {% csrf_token%} {% bootstrap_form form %}
+          <input type="submit" value="Contact Us">
+      </form>
+  </div>
+</div>
+
 
 {% endblock %}

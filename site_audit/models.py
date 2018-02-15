@@ -8,7 +8,7 @@ class AuditRequest(models.Model):
     address = models.CharField(max_length=256)
     contact_number = models.CharField(max_length=50)
     contact_email = models.EmailField()
-    company_URL = models.URLField()
+    company_URL = models.CharField(max_length = 256)
     Tell_Us_About_Your_Needs = models.TextField()
 
     def __str__(self):
