@@ -8,3 +8,5 @@ class Contacts(models.Model):
     email = models.EmailField()
     comments = models.TextField()
     company_name = models.CharField(max_length=250, default='company name')
+
+ 
