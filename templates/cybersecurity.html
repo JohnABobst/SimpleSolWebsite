@@ -67,7 +67,7 @@
         <div class="col-sm justify-content-center m-4">
             <!-- Button trigger modal -->
             <a type="button" class="btn" data-toggle="modal" data-target="#datasheet">
-                  <img id="alienappthumb" src="\static\SimpleSolutionLogo2017-black.png" alt="alienvaultthumb" class="img-thumbnail">
+                  <img id="alienappthumb" src="\static\TSSLogoGrey.png" alt="alienvaultthumb" class="img-thumbnail">
               </a>
         </div>
     </div>
@@ -84,8 +84,9 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
+
                     <div class="modal-body">
-                        <embed id="alienapppdf" src="" width="750" height="350" type='application/pdf'>
+                        <embed id="alienapppdf" src="" width="100%;" height="300" type='application/pdf'>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -101,10 +102,12 @@
 <script type="text/javascript">
 $('#myModal').on('shown.bs.modal', function() {
     $('#myInput').focus()
+
 })
 </script>
 <script>
 $(document).ready(function() {
+
     $("li").click(function() {
         $('#alienappthumb').attr('src', $(this).attr("pdf_thumb"));
         $('#alienapppdf').attr('src', $(this).attr("pdf_file"));
