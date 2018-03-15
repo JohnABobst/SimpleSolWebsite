@@ -14,17 +14,17 @@ class ContactRequestView(FormView):
 
 
     def form_valid(self, form):
-        subject = ''
-        for k in form.cleaned_data:
-            subject += k.replace("_", " ") + ' = ' + form.cleaned_data[k] + '\n'
-        send_mail(
-        "You have a new contact request",
-        subject,
-        settings.EMAIL_HOST_USER,
-        ['scheduling@simplesol.com', 'sales@simplesol.com'],
-        fail_silently = False
-
-        )
+        # subject = ''
+        # for k in form.cleaned_data:
+        #     subject += k.replace("_", " ") + ' = ' + form.cleaned_data[k] + '\n'
+        # send_mail(
+        # "You have a new contact request",
+        # subject,
+        # settings.EMAIL_HOST_USER,
+        # ['scheduling@simplesol.com', 'sales@simplesol.com'],
+        # fail_silently = False
+        #
+        # )
 
         form.save()
         return super().form_valid(form)
